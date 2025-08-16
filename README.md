@@ -1,30 +1,15 @@
-# Preact
+# `create-preact`
 
-This directory is a brief example of a [Preact](https://preactjs.com/) app that can be deployed to Vercel with zero configuration.
+<h2 align="center">
+  <img height="256" width="256" src="./src/assets/preact.svg">
+</h2>
 
-## Deploy Your Own
+<h3 align="center">Get started using Preact and Vite!</h3>
 
-Deploy your own Preact project with Vercel.
+## Getting Started
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/preact&template=preact)
+-   `npm run dev` - Starts a dev server at http://localhost:5173/
 
-_Live Example: https://preact-template.vercel.app_
+-   `npm run build` - Builds for production, emitting to `dist/`. Prerenders all found routes in app to static HTML
 
-## Running Locally
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# test the production build locally
-npm run serve
-
-# run tests with jest and enzyme
-npm run test
-```
+-   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
